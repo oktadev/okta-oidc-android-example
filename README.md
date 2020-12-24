@@ -1,11 +1,9 @@
-# Okta OIDC SDK sample with Oauth 2.0 + OpenID Connect + Biometrics
+# Android Example with OAuth 2.0 + OpenID Connect + Biometrics
 
-This repository contains an example showcasing how to use [Okta OIDC SDK](https://github.com/okta/okta-oidc-android) implementing:
-- Oauth 2.0 + OpenID Connect authentication against Okta
-- Oauth 2.0 + OpenID Connect authentication against external Identity Providers like Google, LinkedIn, Microsoft, ...
+This repository contains an example showcasing how to use [Okta Android SDK](https://github.com/okta/okta-oidc-android) implementing:
+
+- OAuth 2.0 + OpenID Connect authentication against Okta
 - Kotlin wrapper for `BiometricPrompt` and sample usage
-- Usage of custom OkHttp client with Okta OIDC SDK 
-
 
 ## Instructions
 

@@ -1,7 +1,7 @@
 /*
 * Created by Mikel Pascual (mikel@4rtstudio.com) on 25/11/2019.
 */
-package com.okta.oidc.example
+package com.akaita.myapplication
 
 import android.content.Context
 import android.content.SharedPreferences
