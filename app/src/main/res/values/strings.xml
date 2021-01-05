@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Okta OIDC</string>
+    <string name="app_name">My Application</string>
     <string name="use_biometrics">Use biometrics</string>
     <string name="keyguard_unsafe">Keyguard not secure. Set a PIN or enroll a fingerprint.</string>
     <string name="error_data_migration">Error in data migration check logs for error</string>

@@ -1,7 +1,7 @@
 /*
 * Created by Mikel Pascual (mikel@4rtstudio.com) on 25/11/2019.
 */
-package com.okta.oidc.example
+package com.akaita.myapplication
 
 import androidx.biometric.BiometricConstants.ERROR_NEGATIVE_BUTTON
 import androidx.biometric.BiometricPrompt
@@ -38,7 +38,7 @@ class Biometric(
     init {
         prompt = BiometricPrompt(fragmentActivity, Executors.newSingleThreadExecutor(), mCallback)
         promptInfo = PromptInfo.Builder()
-            .setTitle(fragmentActivity.getString(R.string.confirm_credentials))
+            .setTitle("Biometric authentication succeeded")
             .setDeviceCredentialAllowed(true)
             .setConfirmationRequired(true)
             .build()
